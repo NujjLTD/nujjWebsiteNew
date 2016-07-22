@@ -1,0 +1,826 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+@media only screen and (min-width:200px){
+    
+    
+    #container #OurProducts {
+    text-align: center;
+    background-color: rgba(64,64,66,0.5);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+
+}
+    
+header {
+	position: absolute;
+	/*opacity:0.9;*/
+	top: 0;
+	z-index: 10;
+    width: 100vw;
+    text-align: center;
+}
+
+
+    
+header nav li {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    padding: 10px 10px 5px 10px;
+    margin: 0 50px 0px 0px;
+    text-align: center;
+    direction: rtl;
+    width:10%;
+}
+    
+header nav #homeButton {
+    border-style: none;
+    border-width: 0;
+}
+    
+header nav li a:link {
+    text-decoration: none;
+    color: white;
+}
+    
+header nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+    
+header nav li a:hover {
+    text-decoration: none;
+    color: white;
+}
+    
+header nav li a:active {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li img {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.homepage-hero-module .video-container {
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    z-index: 0;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.homepage-hero-module .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.homepage-hero-module .video-container .filter {
+    z-index:-1 ;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.homepage-hero-module .video-container video {
+    z-index:-1;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+.primary {
+    margin-top: 0px;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+.secondary {
+    font-size: 28px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+section #services li div {
+  width: 100px;
+  height: 100px;
+/*  color: white;*/
+  font-size: 70px;
+  text-align: center;
+  line-height: 100px;
+/*  background-color: rgb(64,64,66);*/
+  transition: all 0.5s ease;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section #services li #Email {
+  color: white;
+  background-color: rgb(64,64,66);
+}
+
+section #services li #Facebook {
+  color: white;
+  background-color: rgb(58,88,155);
+}
+
+section #services li #Twitter {
+  color: white;
+  background-color: rgb(80,171,241);
+}
+
+section #services li #Instagram {
+  color: White;
+  background-color: rgb(166,125,93);
+}
+
+section #services li #Linkedin {
+  color: white;
+  background-color: rgb(0,128,193);
+}
+
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+section #services li span {
+  width: 100px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: rgb(64,64,66);
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Terms_and_Conditions {
+    padding-top: 100px;
+    font-size: 26px;
+    text-align: center;
+}
+
+#TandC {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#container{
+    margin-top:0px;
+    padding-top: 0px;
+	width:100%;
+}
+
+    
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.learn_more{
+    text-align: center;
+    text-decoration: none;
+    color: palegreen;
+    margin-top: 0px;
+    top: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;;
+    padding-top: 10px;
+    padding-bottom:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: palegreen;
+    -webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    
+/*    background-color: rgb(90,90,90)*/
+}
+
+.learn_more:hover{
+    
+    color: greenyellow;
+    border-color: greenyellow;
+    background-color: rgb(100,100,100);
+    
+    
+/*    background-color: rgb(90,90,90)*/
+}
+
+.pictureContainer {
+    width:250px;
+    height:250px;
+    overflow: hidden;
+    
+}
+
+.pictures_inline {
+    margin-bottom: 20px;
+    white-space:nowrap;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+#NujjReceipts  {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+	display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+#NujjReceipts .pictureContainer img {
+	position: relative;
+	top:0;
+	width:100%;
+	height:auto;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	transition: all 0.6s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,0.2,1);
+    -moz-transition-timing-function: cubic-bezier(0,0,0.2,1);
+    transition-timing-function: cubic-bezier(0,0,0.2,1);
+}
+
+#NujjReceipts .pictureContainer img:hover{
+	top: -250px;
+}
+
+.apple {
+   text-align: center;
+    margin-bottom: 10px;
+}
+
+.ReceiptsDescription {
+    padding-top: 0px;
+    width: 100vw;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+    
+.ReceiptsDescription #anchor {
+    top: 50px;
+}
+    
+
+.ReceiptsDescription .upperDescription {
+    padding-top: 30px;
+    background-color: rgb(64,64,64);
+}
+
+.ReceiptsDescription .upperDescription p{
+    color: white;
+    margin-top: 0px;
+}
+
+
+.ReceiptsDescription .apple {
+    margin-bottom: 20px;
+}
+
+.ReceiptsDescription .android{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    top: 0px;
+    font-size: 24px;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    -webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    
+/*    background-color: rgb(90,90,90)*/
+}
+
+.android:hover {
+    background-color: rgb(90,90,90);
+}
+
+.ReceiptsDescription p {
+    text-align: center;
+    color: black;
+}
+
+.ReceiptsDescription a {
+    text-align: center;
+}
+
+
+.ReceiptsDescription .Left {
+    clear: both;
+    float: left;
+    width: 50%;
+}
+
+.ReceiptsDescription .Left h2 {
+    padding-left: 100px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.ReceiptsDescription .Left p {
+    
+    padding-left: 100px;
+    padding-right: 60px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.ReceiptsDescription .Left b {
+    
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+
+.ReceiptsDescription .Left p:hover {
+    color: black;
+}
+
+.ReceiptsDescription .Left p b:hover {
+    font-size: 21px;
+}
+
+
+
+.ReceiptsDescription .Right {
+    float:right;
+    width: 50%;
+    text-align: center;
+}
+
+.ReceiptsDescription .Right h2{
+    text-align: left;
+    padding-left: 60px;
+    font-size: 32px;
+}
+
+.ReceiptsDescription .Right p {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 30px;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.ReceiptsDescription .Right b {
+    
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+.ReceiptsDescription .Right p:hover {
+    color: black;
+}
+
+.ReceiptsDescription .Right p b:hover {
+    font-size: 24px;
+}
+    
+.Links {
+    display: none;
+    float: left;
+    list-style-type: none;
+    white-space: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+    
+.Links li {
+    display: inline;
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+}
+    
+.Links li:hover {
+    font-weight: bolder;
+}
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*default valyes */
+
+
+hr { clear:both; width:70%; height:1px; background: #fff; text-align: center; }
+
+
+
+#ContactUs{
+    text-align: center;
+}
+
+.Form {
+    text-align: center;
+}
+
+.Footnote {
+    text-align: center;
+}
+
+.Footnote p {
+    color: black;
+    font-size: 16px;
+}
+
+.Footnote a {
+    color:black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Footnote a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+.Footnote a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.Footnote a:hover {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.Footnote a:active {
+	color: black;
+    text-decoration: underline;
+}
+
+.infoPictures img {
+    clear: both;
+    padding-left: 10vw;
+    width: 12.5vw;
+}
+    
+}
+
+
+
+/*max 800 px values VERY SMALL SCREEN i.e. PHONE */
+
+
+@media screen and (max-width : 800px) {
+    
+    header {
+        display: none;
+    }
+    
+    .primary {
+        padding-top: 40px;
+    }
+    
+    
+    .ReceiptsDescription .Left {
+    float: left;
+    width: 100vw;
+    }
+    
+    .ReceiptsDescription .Left h2 {
+        padding-left: 60px;
+    }
+    
+    .ReceiptsDescription .Left p {
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+        
+    
+    .ReceiptsDescription .Right {
+    float:right;
+    width: 100vw;
+    text-align: center;
+    }
+    
+    #OurProducts {
+    background: url(../CSS/Images/background_image_phone.jpg);
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    background-color: rgb(64,64,66);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
+    .pictureContainer {
+    width:250px;
+    height:250px;
+    overflow: hidden;
+}
+
+    
+
+    #NujjReceipts  {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+	display: inline-block;
+}
+
+
+    #NujjReceipts .pictureContainer img {
+	position: relative;
+	top:0;
+	width:100%;
+	height:auto;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+    
+    #NujjReceipts .pictureContainer img:hover{
+	top: 0px;
+}
+    
+    
+    video {
+        display: none;
+    }
+    
+    header {
+	background-color: rgb(64,64,66);
+}
+    
+    #OurProducts .nujjReceipts {
+    padding-top: 40px
+}
+
+
+        
+        
+    .ReceiptsDescription .Left {
+    float: left;
+    width: 100vw;
+    }
+        
+    .ReceiptsDescription .Left h2 {
+        padding-left: 60px;
+    }
+    
+    .ReceiptsDescription .Left p {
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+        
+    .ReceiptsDescription .Right {
+    float:right;
+    width: 100vw;
+    text-align: center;
+    }
+        
+        
+    #OurProducts {
+    text-align: center;
+    background-color: rgb(64,64,66);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 60px;
+}
+
+    .pictureContainer {
+    width:250px;
+    height:250px;
+    overflow: hidden;
+}
+
+
+    #NujjReceipts .pictureContainer img {
+	position: relative;
+	top:0;
+	width:100%;
+	height:auto;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+    
+    #NujjReceipts .pictureContainer img:hover{
+	top: 0px;
+}
+    
+    hr { display: none }
+    
+.Links {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+    
+.Links ul{
+    padding: 0px;
+    margin: 0px;
+}
+    
+.Links li {
+    border-style: solid;
+    width: 100%;
+    display: block;
+    padding: 50px 0px 50px; 0px;
+    margin: 0;
+    text-decoration: none;
+    border-color: black;
+}
+    
+.Links li:hover {
+    font-weight: bolder;
+}
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+
+    
+}
+
+@media only screen and (max-height:600px) {
+    .primary {
+        display: none;
+    }
+    
+    .nujjReceipts {
+        display: none;
+    }
+    
+    .arrow {
+        display: none;
+    }
+    
+    .pictureContainer {
+        margin-top: 20vh;
+    }
+}
+
+
+

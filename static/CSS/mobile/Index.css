@@ -1,0 +1,634 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+@media only screen and (min-width:200px){
+    
+    html, body { width:100%;  overflow:hidden; }
+    
+    
+    #container #OurProducts {
+    text-align: center;
+    background-color: rgba(64,64,66,0.5);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+
+}
+    
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.homepage-hero-module .video-container {
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    z-index: 0;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.homepage-hero-module .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.homepage-hero-module .video-container .filter {
+    z-index:-1 ;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.homepage-hero-module .video-container video {
+    z-index:-1;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+.primary {
+    margin-top: 0px;
+    padding-top: 5vw;
+    font-size: 2.5cm;
+}
+
+.secondary {
+    font-size: 28px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin-left: 0.8cm;
+  margin-right: 0.8cm;
+  margin-bottom: 0.5cm;
+  list-style: none;
+}
+section #services li div {
+  width: 100px;
+  height: 100px;
+/*  color: white;*/
+  font-size: 1cm;
+  text-align: center;
+  line-height: 100px;
+/*  background-color: rgb(64,64,66);*/
+  transition: all 0.5s ease;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section #services li #Email {
+  color: white;
+  background-color: rgb(64,64,66);
+}
+
+section #services li #Facebook {
+  color: white;
+  background-color: rgb(58,88,155);
+}
+
+section #services li #Twitter {
+  color: white;
+  background-color: rgb(80,171,241);
+}
+
+section #services li #Instagram {
+  color: White;
+  background-color: rgb(166,125,93);
+}
+
+section #services li #Linkedin {
+  color: white;
+  background-color: rgb(0,128,193);
+}
+
+
+section #services li span {
+  width: 100px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: rgb(64,64,66);
+  font-size: 1cm;
+  text-align: center;
+}
+
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Terms_and_Conditions {
+    padding-top: 100px;
+    font-size: 26px;
+    text-align: center;
+}
+
+#TandC {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#container{
+    margin-top:0px;
+    padding-top: 0px;
+	width:100%;
+}
+
+    
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.learn_more{
+    text-align: center;
+    text-decoration: none;
+    color: palegreen;
+    margin-top: 0px;
+    top: 0px;
+    font-size: 3cm;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: palegreen;
+    -webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    
+/*    background-color: rgb(90,90,90)*/
+}
+
+
+
+.pictureContainer {
+    width:50vw;
+    height:50vw;
+    overflow: hidden;
+    margin-left: 25vw;
+    
+}
+
+
+
+
+
+
+.pictureContainer img {
+	position: relative;
+	top:0;
+	width:100%;
+	height:auto;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	transition: all 0.6s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,0.2,1);
+    -moz-transition-timing-function: cubic-bezier(0,0,0.2,1);
+    transition-timing-function: cubic-bezier(0,0,0.2,1);
+}
+
+
+
+.apple {
+   text-align: center;
+    margin-bottom: 10px;
+}
+
+.ReceiptsDescription {
+    padding-top: 0px;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+    
+.ReceiptsDescription #anchor {
+    top: 50px;
+}
+    
+
+.ReceiptsDescription .upperDescription {
+    padding-top: 30px;
+    background-color: rgb(64,64,64);
+}
+
+.ReceiptsDescription .upperDescription p{
+    color: white;
+    margin-top: 0px;
+    font-size: 2.5cm;
+}
+
+
+.ReceiptsDescription .apple {
+    margin-bottom: 20px;
+}
+
+.ReceiptsDescription .android{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    top: 0px;
+    font-size: 2cm;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    -webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    
+/*    background-color: rgb(90,90,90)*/
+}
+
+
+.ReceiptsDescription p {
+    text-align: center;
+    color: black;
+}
+
+.ReceiptsDescription a {
+    text-align: center;
+}
+
+
+.ReceiptsDescription .Left {
+    clear: both;
+    width: 100%;
+}
+
+.ReceiptsDescription .Left h2 {
+    padding-left: 100px;
+    font-size: 2.5cm;
+    text-align: left;
+}
+
+.ReceiptsDescription .Left p {
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 2cm;
+    text-align: justify;
+    line-height: 2cm;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.ReceiptsDescription .Left b {
+    
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+
+
+.ReceiptsDescription .Right {
+    text-align: center;
+    z-index: -1;
+}
+
+.ReceiptsDescription .Right h2{
+    font-size: 2.5cm;
+}
+
+.ReceiptsDescription .Right p {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 2.6cm;
+    text-align: justify;
+    line-height: 2cm;
+    color: #575757;
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.ReceiptsDescription .Right b {
+    
+    -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+    
+.Links {
+    display: none;
+    float: left;
+    list-style-type: none;
+    white-space: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+    
+.Links li {
+    display: inline;
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+}
+    
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*default valyes */
+
+
+hr { clear:both; width:70%; height:1px; background: #fff; text-align: center; }
+
+
+
+#ContactUs{
+    text-align: center;
+    font-size: 2.5cm;
+}
+
+.Form {
+    text-align: center;
+}
+
+.Footnote {
+    text-align: center;
+}
+
+.Footnote p {
+    color: black;
+    font-size: 16px;
+}
+
+.Footnote a {
+    color:black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Footnote a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+.Footnote a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.Footnote a:active {
+	color: black;
+    text-decoration: underline;
+}
+
+.infoPictures img {
+    clear: both;
+    padding-left: 10vw;
+    width: 12.5vw;
+}
+    
+    
+
+    
+    #OurProducts {
+    background: url(../../CSS/Images/background_image_phone.jpg);
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    background-color: rgb(64,64,66);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
+
+
+
+    
+    
+    
+    
+video {
+        display: none;
+    }
+    
+    
+#OurProducts .nujjReceipts {
+    padding-top: 0;
+    margin-top: 1cm;
+    font-size: 3cm;
+}
+
+
+        
+        
+        
+    #OurProducts {
+    text-align: center;
+    background-color: rgb(64,64,66);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 60px;
+}
+
+
+    
+   
+    
+    hr { display: none }
+    
+.Links {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5cm;
+    margin-bottom: 50px;
+}
+    
+.Links ul{
+    padding: 0px;
+    margin: 0px;
+}
+    
+.Links li {
+    border-style: solid;
+    width: 100%;
+    display: block;
+    padding: 50px 0px 50px; 0px;
+    margin: 0;
+    text-decoration: none;
+    border-color: black;
+}
+    
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+    
+.extra-line {
+    line-height: 3cm;
+}
+    
+header {
+  background: black;
+  height: 4cm;
+  position: fixed;
+  top: -4cm;
+  transition: top 0.3s ease-in-out;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+    
+header a {
+    position: relative;
+    padding-top: 0;
+    margin-top: 0;
+    top: -1cm;
+}
+
+
+.nav-up {
+  top: -4cm;
+}
+
+.nav-down {
+  top: 0px;
+}
+
+    
+}
+
+@media only screen and (max-height:20cm) {
+    
+
+#container #OurProducts {
+    text-align: center;
+    background-color: rgba(64,64,66,0.5);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    z-index: 10;
+    width: 100vw;
+    height: 40cm;
+}
+    
+}
+
+
+
+
+

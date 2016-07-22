@@ -1,0 +1,435 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+@media only screen and (min-width:200px){
+    
+    
+    
+header {
+	position: absolute;
+	/*opacity:0.9;*/
+	top: 0;
+	z-index: 10;
+    width: 100vw;
+    text-align: center;
+}
+
+
+    
+header nav li {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    padding: 10px 10px 5px 10px;
+    margin: 0 50px 0px 0px;
+    text-align: center;
+    direction: rtl;
+    width:10%;
+}
+    
+header nav #homeButton {
+    border-style: none;
+    border-width: 0;
+}
+    
+header nav li a:link {
+    text-decoration: none;
+    color: black;
+}
+    
+header nav li a:visited {
+    text-decoration: none;
+    color: black;
+}
+    
+header nav li a:hover {
+    text-decoration: none;
+    color: black;
+}
+    
+header nav li a:active {
+    text-decoration: none;
+    color: black;
+}
+
+header nav li img {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+}
+    
+#topHeader {
+    margin-top: 100px;
+}
+    
+    
+.directors {
+    text-align: center;
+}
+
+.directors h2{
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-bottom: 3px;
+}
+
+.directors h3{
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.directors div {
+    white-space: none;
+    display: inline-block;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-left: 5vw;
+    margin-right: 0px;
+}
+
+.directors img {
+    width: 12vw;
+    height: 12vw; 
+    border-radius: 20px;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-left: 0vw;
+    margin-right: 0px;
+}
+
+.directors .Charlie {
+    margin-left: 0vw;
+}
+
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+section #services li div {
+  width: 100px;
+  height: 100px;
+/*  color: white;*/
+  font-size: 70px;
+  text-align: center;
+  line-height: 100px;
+/*  background-color: rgb(64,64,66);*/
+  transition: all 0.5s ease;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section #services li #Email {
+  color: white;
+  background-color: rgb(64,64,66);
+}
+
+section #services li #Facebook {
+  color: white;
+  background-color: rgb(58,88,155);
+}
+
+section #services li #Twitter {
+  color: white;
+  background-color: rgb(80,171,241);
+}
+
+section #services li #Instagram {
+  color: White;
+  background-color: rgb(166,125,93);
+}
+
+section #services li #Linkedin {
+  color: white;
+  background-color: rgb(0,128,193);
+}
+
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+section #services li span {
+  width: 100px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: rgb(64,64,66);
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Terms_and_Conditions {
+    padding-top: 100px;
+    font-size: 26px;
+    text-align: center;
+}
+
+#TandC {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#container{
+    margin-top:0px;
+    padding-top: 0px;
+	width:100%;
+}
+
+    
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+    
+.Links {
+    display: none;
+    float: left;
+    list-style-type: none;
+    white-space: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+    
+.Links li {
+    display: inline;
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+}
+    
+.Links li:hover {
+    font-weight: bolder;
+}
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*default valyes */
+
+
+hr { clear:both; width:70%; height:1px; background: #fff; text-align: center; }
+
+
+
+#ContactUs{
+    text-align: center;
+}
+
+.Form {
+    text-align: center;
+}
+
+.Footnote {
+    text-align: center;
+}
+
+.Footnote p {
+    color: black;
+    font-size: 16px;
+}
+
+.Footnote a {
+    color:black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Footnote a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+.Footnote a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.Footnote a:hover {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.Footnote a:active {
+	color: black;
+    text-decoration: underline;
+}
+
+.infoPictures img {
+    clear: both;
+    padding-left: 10vw;
+    width: 12.5vw;
+}
+    
+}
+
+
+
+/*max 800 px values VERY SMALL SCREEN i.e. PHONE */
+
+
+@media screen and (max-width : 800px) {
+    
+.infoPictures img {
+    clear: both;
+    padding-left: 10vw;
+    width: 12.5vw;
+}
+    
+    #topHeader {
+    margin-top: 40px;
+}
+    
+    header {
+        display: none;
+    }
+    
+    
+    hr { display: none }
+    
+.directors {
+    text-align: center;
+}
+
+.directors h2{
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-bottom: 3px;
+}
+
+.directors h3{
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.directors div {
+    white-space: none;
+    display: inline-block;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-left: 5vw;
+    margin-right: 0px;
+}
+
+.directors img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 20px;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-left: 0vw;
+    margin-right: 0px;
+}
+
+.directors .Charlie {
+    margin-left: 0vw;
+}
+    
+.Links {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+    
+.Links ul{
+    padding: 0px;
+    margin: 0px;
+}
+    
+.Links li {
+    border-style: solid;
+    width: 100%;
+    display: block;
+    padding: 50px 0px 50px; 0px;
+    margin: 0;
+    text-decoration: none;
+    border-color: black;
+}
+    
+.Links li:hover {
+    font-weight: bolder;
+}
+
+/* unvisited link */
+.Links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.Links a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.Links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+.Links a:active {
+    text-decoration: none;
+    color: black;
+}
+
+    
+}
