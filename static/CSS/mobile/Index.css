@@ -260,7 +260,6 @@ h1 {
     height: auto;
     text-align: center;
     position: relative;
-    z-index: -1;
 }
     
 .ReceiptsDescription #anchor {
@@ -353,7 +352,6 @@ h1 {
 
 .ReceiptsDescription .Right {
     text-align: center;
-    z-index: -1;
 }
 
 .ReceiptsDescription .Right h2{
